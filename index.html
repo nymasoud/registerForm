@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>RegisterFrom</title>
+</head>
+<body>
+    
+<div>
+    <style>
+        body{
+            background-image: url('regPhoto.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+
+
+    <h1 style="color: white;"> Register Form</h1>
+    <div>
+        <label for ="first_name" style="color: white;">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+    </div>
+    <div>
+        <label for ="last_name"style="color: white;">Last Name</label>
+        <input type="text" name="last_name" id="last_name">
+    </div>
+    <div>
+        <label for ="email_address"style="color: white;">Email Address</label>
+        <input type="text" name="email_address" id="email_address">
+    </div>
+    <div>
+        <label for ="password"style="color: white;">Password</label>
+        <input type="text" name="password" id="password">
+    </div>
+    <div>
+        <label for ="Confirm_Password"style="color: white;">Confirm Password</label>
+        <input type="text" name="Confirm_Password" id="Confirm_password">
+    </div>
+    <div>
+        <label for ="birthday"style="color: white;">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+    </div>
+    <div>
+        <p style="color: white;"><strong>Gender Identity</strong></p>
+        <input type="radio" name="Gender_Identity" id="Gender_Identity">
+        <label for="male"style="color: white;">Male </label>
+        <input type="radio" name="Gender_Identity" id="Gender_Identity">
+        <label for="female"style="color: white;">Female</label>
+        <input type="radio" name="Gender_Identity" id="Gender_Identity">
+        <label for="Non-binary"style="color: white;">Non-binary</label>
+        <input type="radio" name="Gender_Identity" id="Gender_Identity">
+        <label for="IPreferNottoAnswer"style="color: white;">I Prefer not to answer</label>
+    </div>
+    <div>
+        <label for="description"style="color: white;">A short description about myself</label>
+        <div>
+            <textarea id="description" name="description" rows="4" cols="50">
+            </textarea>
+        </div>
+    </div>
+    <div>
+        <label style="color: white;">Favorite Language</label>
+        <select name="Favorite_Language" id="Favorite_Language">
+        <option value="Javascript">Javascript</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="Python">Python</option>   
+    </select>
+    </div>
+    <div>
+        <input type="checkbox" id="Yes" name="Yes" value="Yes">
+        <label for="Yes" style="color: white;">Yes, I would like to recieve periodic email updates</label>
+    </div>
+    <div>
+        <button>Create Account</button>
+    </div>
+    <div>
+        <label style="color: white;">* Indicates a required field</label>
+    </div>
+
+</div>
+</body>
+</html>

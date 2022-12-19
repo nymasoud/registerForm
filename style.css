@@ -1,0 +1,20 @@
+.wrapper{
+    width:20px;
+    padding: 10px;
+    height: 20px;
+}
+
+img{
+    border: 1px solid #add;
+    border-radius: 4px;
+    padding: 5px;
+    width:150ox;
+}
+
+
+.body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
